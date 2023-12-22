@@ -382,6 +382,8 @@ section #justify-content-section {
 .justify-content-space-evenly-parent-container {
   /* place your code here */
   display: flex;
+  flex-wrap: wrap;
+
   justify-content: space-evenly;
 }
 
@@ -462,6 +464,7 @@ section#align-content-section {
 
 .align-content-center-parent-container {
   /* place your code here */
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
@@ -514,6 +517,7 @@ section#gap-section {
 .gap-parent-container {
   /* display: flex; */
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .row-gap-parent-container {
